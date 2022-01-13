@@ -1,6 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/nullheader/dotfiles/fish/functions/fisher\x2efish\x1e/home/nullheader/dotfiles/fish/completions/fisher\x2efish
+SETUVAR _fisher_oh_2D_my_2D_fish_2F_theme_2D_bobthefish_files:/home/nullheader/dotfiles/fish/functions/bobthefish_display_colors\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_greeting\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_mode_prompt\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_prompt\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_right_prompt\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_title\x2efish\x1e/home/nullheader/dotfiles/fish/functions/__bobthefish_colors\x2efish\x1e/home/nullheader/dotfiles/fish/functions/__bobthefish_display_colors\x2efish\x1e/home/nullheader/dotfiles/fish/functions/__bobthefish_glyphs\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/theme\x2dbobthefish
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
