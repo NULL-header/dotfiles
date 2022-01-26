@@ -1,0 +1,8 @@
+[[plugins]]
+repo="Shougo/context_filetype.vim"
+on_source=["nvim-treesitter"]
+
+[[plugins]]
+repo="osyo-manga/vim-precious"
+on_source=["context_filetype.vim"]
+depends=["context_filetype.vim"]

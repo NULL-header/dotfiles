@@ -1,0 +1,15 @@
+[[plugins]]
+repo="neoclide/coc.nvim"
+rev="release"
+merged=0
+on_source=["nvim-treesitter"]
+hook_source='''
+inoremap <silent><expr> <C-Space> coc#refresh()
+inoremap <silent><expr> <Space>
+\ pumvisible() ? "<C-n>" : "<Space>"
+inoremap<silent><expr> <CR>
+\ pumvisible() ? "<C-y>" : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+set completeopt=menuone,noinsert,noselect
+nnoremap gj :call CocAction("diagnosticNext")<CR>
+nnoremap gk :call CocAction("diagnosticPrevious")<CR>
+'''

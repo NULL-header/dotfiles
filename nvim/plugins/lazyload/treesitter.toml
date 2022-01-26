@@ -1,0 +1,13 @@
+[[plugins]]
+repo = "nvim-treesitter/nvim-treesitter"
+hook_post_update= '''
+  TSUpdate
+'''
+on_event="BufRead"
+hook_source='''
+lua <<EOF
+require"nvim-treesitter.configs".setup {
+  ensure_installed="all",
+}
+EOF
+'''

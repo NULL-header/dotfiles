@@ -1,0 +1,6 @@
+{
+  "coc.preferences.rootPatterns":[".git","node_modules"],
+  "coc.preferences.formatOnSaveFiletypes":["typescript"],
+  "suggest.echodocSupport": true,
+  "suggest.noselect":false
+}

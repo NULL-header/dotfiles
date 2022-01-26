@@ -1,0 +1,4 @@
+[[plugins]]
+repo="rbong/vim-flog"
+depends=["vim-fugitive"]
+on_cmd=["Flog","Flogsplit"]

@@ -1,5 +1,5 @@
-let s:base_dir=expand('~/dotfiles/vim')
+let g:counter=0
 
-execute 'set runtimepath+=' . fnamemodify(s:base_dir, ':p')
-
+runtime! util.vim
 runtime! basic.vim
+runtime! dein.vim

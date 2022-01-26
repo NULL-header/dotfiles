@@ -1,0 +1,38 @@
+[[plugins]]
+repo = "antoinemadec/FixCursorHold.nvim"
+
+[[plugins]]
+repo="lambdalisue/nerdfont.vim"
+
+[[plugins]]
+repo = "lambdalisue/fern.vim"
+depends = ["FixCursorHold.nvim"]
+hook_add = '''
+execute "nnoremap <silent> <Tab> :Fern " . g:dir_opened . " -reveal=%<CR>"
+let g:fern#default_hidden=1
+'''
+
+[[plugins]]
+repo="lambdalisue/fern-renderer-nerdfont.vim"
+depends=["nerdfont.vim","fern.vim"]
+hook_add='''
+let g:fern#renderer="nerdfont"
+'''
+
+[[plugins]]
+repo="lambdalisue/glyph-palette.vim"
+depends=["nerdfont.vim","fern.vim","fern-renderer-nerdfont.vim"]
+hook_add='''
+augroup my-glyph-palette
+  autocmd! *
+  autocmd FileType fern call glyph_palette#apply()
+  autocmd FileType nerdtree,startify call glyph_palette#apply()
+augroup END
+'''
+
+[[plugins]]
+repo = "lambdalisue/fern-hijack.vim"
+depends = ["fern.vim"]
+
+[[plugins]]
+repo="lambdalisue/fern-git-status.vim"

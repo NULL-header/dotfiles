@@ -1,13 +1,9 @@
-" setting key binding
 inoremap <silent> jj <ESC>
-
-" setting TAB
-set tabstop=2 " number of visual spaces of TAB. I am not going to use special char TAB so it is not needed options. This is plan B
-set softtabstop=2 " number of spaces of TAB
-set shiftwidth=2 " number of spaces to use for auto indent
-set expandtab " use spaces instead of special char TAB
-set autoindent
-set copyindent " when fire auto indent
+nnoremap : q:
+nnoremap q :bd<CR>
+nnoremap <C-w> :w<CR>
+nnoremap <C-q> :q<CR>
+autocmd VimEnter * imap <Nul> <C-Space>
 
 " setting UI
 set number
@@ -20,3 +16,21 @@ set nobackup
 set noswapfile
 set hlsearch
 
+" setting clipboard
+set clipboard+=unnamedplus
+let g:clipboard = {
+  \ 'name': 'myClipboard',
+  \ 'copy': {
+  \   '+': 'win32yank.exe -i',
+  \   '*': 'win32yank.exe -i',
+  \ },
+  \ 'paste': {
+  \   '+': 'win32yank.exe -o',
+  \   '*': 'win32yank.exe -o',
+  \ },
+  \ 'cache_enabled': 1,
+  \ }
+
+" setting Plugins
+set modifiable " for Plug action on shorthund
+set write

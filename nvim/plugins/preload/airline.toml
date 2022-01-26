@@ -1,0 +1,42 @@
+[[plugins]]
+repo="tpope/vim-fugitive"
+
+[[plugins]]
+repo="vim-airline/vim-airline"
+hook_add='''
+" setting base
+let g:airline_powerline_fonts=1
+let g:airline#extensions#scrollbar#enabled=1
+let g:airline#extensions#branch#enabled=1
+
+" setting layout
+let g:airline#extensions#default#layout=[
+\ ["a","b","c"],
+\ ["x"]
+\ ]
+let g:airline_section_x="%{&filetype}"
+
+" setting tabs
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_close_button=0
+let g:airline#extensions#tabline#buffers_label=""
+let g:airline#extensions#tabline#fnamemod=":t"
+
+" setting key
+let g:airline#tabline#keymap_ignoredfiletypes=[
+\ "fern"
+\ ]
+nmap t <Plug>AirlineSelectNextTab
+nmap T <Plug>AirlineSelectPrevTab
+
+" setting icon
+if !exists("g:airline_symbols")
+  let g:airline_symbols={}
+endif
+let g:airline_symbols.branch=""
+'''
+
+[[plugins]]
+repo="vim-airline/vim-airline-themes"
+depends=["vim-airline"]
+
