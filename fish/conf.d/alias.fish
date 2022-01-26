@@ -1,1 +1,8 @@
 alias g='git'
+alias ggr='w3m google.com'
+alias bat='batcat'
+alias grep='rg'
+alias ls='lsd'
+alias vim='nvim'
+alias man='batman'
+alias rm='trash'

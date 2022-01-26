@@ -1,9 +1,19 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export XDG_CONFIG_HOME:/home/nullheader/dotfiles
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_clip:win32yank\x2eexe\x20\x2di
+SETUVAR _fish_abbr_en:trans\x20ja\x3aen\x20\x2dpager\x20/usr/bin/batcat
+SETUVAR _fish_abbr_g:git
+SETUVAR _fish_abbr_ggr:w3m\x20google\x2ecom
+SETUVAR _fish_abbr_ja:trans\x20en\x3aja\x20\x2dpager\x20/usr/bin/batcat
+SETUVAR _fish_abbr_paste:win32yank\x2eexe\x20\x2do
+SETUVAR _fish_abbr_remove:ja
+SETUVAR _fish_abbr_rv:nvim\x20\x28git\x20rev\x2dparse\x20\x2d\x2dshow\x2dtoplevel\x29
+SETUVAR _fish_abbr_tt:taskwarrior\x2dtui
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/nullheader/dotfiles/fish/functions/fisher\x2efish\x1e/home/nullheader/dotfiles/fish/completions/fisher\x2efish
 SETUVAR _fisher_oh_2D_my_2D_fish_2F_theme_2D_bobthefish_files:/home/nullheader/dotfiles/fish/functions/bobthefish_display_colors\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_greeting\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_mode_prompt\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_prompt\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_right_prompt\x2efish\x1e/home/nullheader/dotfiles/fish/functions/fish_title\x2efish\x1e/home/nullheader/dotfiles/fish/functions/__bobthefish_colors\x2efish\x1e/home/nullheader/dotfiles/fish/functions/__bobthefish_display_colors\x2efish\x1e/home/nullheader/dotfiles/fish/functions/__bobthefish_glyphs\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/theme\x2dbobthefish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eoh\x2dmy\x2dfish/theme\x2dbobthefish\x1egothenburgbitfactory/taskwarrior
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -33,3 +43,5 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR --export fish_user_paths:/home/nullheader/\x2elocal/bin\x1e/home/linuxbrew/\x2elinuxbrew/bin
+SETUVAR --export theme_power_fonts:yes
