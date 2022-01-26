@@ -1,3 +1,9 @@
-/fish/functions/*
-/fish/completions/*
-
+/fish/functions
+/fish/completions
+/tmux/plugins
+/taskwarrior/hooks
+/taskwarrior/task
+/configstore
+/coc
+/byobu
+/anyenv
