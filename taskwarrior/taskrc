@@ -1,0 +1,10 @@
+editor=nvim
+# shell.prompt=fish
+
+data.location=~/dotfiles/taskwarrior/task
+# hooks.location=~/dotfiles/taskwarrior/hooks
+context.work.read=+work
+context.work.write=+work
+context.private.read=-work
+context.private.write=-work
+context=work
