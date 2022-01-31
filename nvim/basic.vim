@@ -3,6 +3,9 @@ nnoremap : q:
 nnoremap q :bd<CR>
 nnoremap <C-w> :w<CR>
 nnoremap <C-q> :q<CR>
+nnoremap gh <C-w>h
+nnoremap gl <C-w>l
+" for alacritty
 autocmd VimEnter * imap <Nul> <C-Space>
 
 " setting UI
