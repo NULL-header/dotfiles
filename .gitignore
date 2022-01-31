@@ -4,6 +4,9 @@
 /taskwarrior/hooks
 /taskwarrior/task
 /configstore
-/coc
+/coc/*
+!/coc/extensions
+/coc/extensions/*
+!/coc/extensions/package.json
 /byobu
 /anyenv
