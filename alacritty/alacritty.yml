@@ -1,0 +1,6 @@
+env:
+  TEAM: xterm-256color
+font:
+  normal:
+    family: Victor Mono
+    style: Regular
