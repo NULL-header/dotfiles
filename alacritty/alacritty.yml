@@ -1,6 +1,13 @@
 env:
   TEAM: xterm-256color
+window:
+  opacity: 0.5
 font:
+  size: 16
   normal:
-    family: Victor Mono
+    family: VictorMono
     style: Regular
+  glyph_offset:
+    x: 0
+    y: 2
+

@@ -13,6 +13,7 @@ set number
 set showcmd
 set cursorline
 set wildmenu
+set termguicolors
 
 " setting system
 set nobackup
@@ -21,18 +22,7 @@ set hlsearch
 
 " setting clipboard
 set clipboard+=unnamedplus
-let g:clipboard = {
-  \ 'name': 'myClipboard',
-  \ 'copy': {
-  \   '+': 'win32yank.exe -i',
-  \   '*': 'win32yank.exe -i',
-  \ },
-  \ 'paste': {
-  \   '+': 'win32yank.exe -o',
-  \   '*': 'win32yank.exe -o',
-  \ },
-  \ 'cache_enabled': 1,
-  \ }
+" let g:clipboard =unnamedplus
 
 " setting Plugins
 set modifiable " for Plug action on shorthund

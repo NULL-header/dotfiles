@@ -1,7 +1,7 @@
 " You should install dein to tool.
 " Add, it must not be in $XDG_CONFIG_HOME;
 " So you should change the path along your environment.
-let s:path_plug=expand('~/tool/dein')
+let s:path_plug=expand('~/.cache/dein')
 let s:path_dein=s:path_plug . '/repos/github.com/Shougo/dein.vim'
 
 execute 'set runtimepath+=' . s:path_dein
@@ -26,7 +26,7 @@ function! s:Load_tomls(tomls,is_lazy) abort
 endfunction
 
 function! s:Load_global_plugins() abort
-  let l:path_tomls=expand('$XDG_CONFIG_HOME/nvim/plugins/')
+  let l:path_tomls=expand('~/dotfiles/nvim/plugins/')
   let l:preload=s:Get_tomls(l:path_tomls . 'preload')
   call s:Load_tomls(l:preload,0)
   let l:lazyload=s:Get_tomls(l:path_tomls . 'lazyload')
