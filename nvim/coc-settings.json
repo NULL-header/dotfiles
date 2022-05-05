@@ -1,6 +1,4 @@
 {
   "languageserver": {},
-  "coc.preferences.formatOnSaveFiletypes": ["json", "rust"],
-  "suggest.enablePreselect": true,
-  "suggest.noselect": false
+  "coc.preferences.formatOnSaveFiletypes": ["json", "rust"]
 }
