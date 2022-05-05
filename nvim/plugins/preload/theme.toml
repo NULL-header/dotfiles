@@ -1,0 +1,5 @@
+[[plugins]]
+repo="ulwlu/elly.vim"
+hook_add='''
+colorscheme elly
+'''

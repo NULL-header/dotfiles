@@ -1,0 +1,5 @@
+[[plugins]]
+repo="neoclide/coc.nvim"
+on_source=["nvim-treesitter"]
+source="release"
+build="coc#util#install()"

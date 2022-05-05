@@ -50,6 +50,7 @@ call dein#end()
 call dein#save_state()
 filetype plugin indent on
 syntax enable
+" call dein#install()
 if dein#check_install()
   call dein#install()
 endif

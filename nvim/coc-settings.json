@@ -1,0 +1,9 @@
+{
+  "languageserver": {},
+  "coc.preferences.formatOnSaveFiletypes": ["json", "rust"],
+  "git.addedSign.hlGroup": "CocDiffAdd",
+  "git.changedSign.hlGroup": "CocDiffChange",
+  "git.removedSign.hlGroup": "CocDiffDelete",
+  "git.topRemovedSign.hlGroup": "CocDiffDelete",
+  "git.changeRemovedSign.hlGroup": "CocDiffDelete"
+}
