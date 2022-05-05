@@ -3,3 +3,6 @@ repo="neoclide/coc.nvim"
 on_source=["nvim-treesitter"]
 source="release"
 build="coc#util#install()"
+hook_source='''
+inoremap <expr> <c-space> coc#refresh()
+'''
