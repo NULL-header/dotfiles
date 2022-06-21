@@ -5,4 +5,6 @@ source="release"
 build="coc#util#install()"
 hook_source='''
 inoremap <expr> <c-space> coc#refresh()
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+inoremap <expr> <space> pumvisible() ? "\<c-n>":"\<space>"
 '''
