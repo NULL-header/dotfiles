@@ -2,4 +2,5 @@
 repo="ulwlu/elly.vim"
 hook_add='''
 colorscheme elly
+" hi Normal guibg=NONE ctermbg=NONE
 '''
